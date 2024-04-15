@@ -1,0 +1,26 @@
+{
+    "bundle_id": "jarvis.test.telegram",
+
+    "api_id": "27280993",
+
+    "api_hash": "533c446d57e2bc7e631c7e98ff8b17de",
+
+    "team_id": "M9U5FEUR53",
+
+"app_center_id": "0",
+
+"is_internal_build": "false",
+
+"is_appstore_build": "true",
+
+"appstore_id": "686449807",
+
+"app_specific_url_scheme": "tg",
+
+"premium_iap_product_id": "org.telegram.telegramPremium.monthly",
+
+"enable_siri": true,
+
+"enable_icloud": true
+
+}

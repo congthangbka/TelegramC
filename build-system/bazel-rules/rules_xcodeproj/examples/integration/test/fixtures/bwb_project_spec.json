@@ -1,0 +1,450 @@
+{
+    "B": "rules_xcodeproj_integration",
+    "E": [
+        "//CommandLine/Tests:CommandLineToolTests.__internal__.__test_bundle applebin_macos-darwin_x86_64-dbg-STABLE-39",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//CommandLine/Tests:CommandLineToolTests.__internal__.__test_bundle applebin_macos-darwin_x86_64-opt-STABLE-40",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//iOSApp/Test/ObjCUnitTests:iOSAppObjCUnitTestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/ObjCUnitTests:iOSAppObjCUnitTestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/ObjCUnitTests:iOSAppObjCUnitTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/ObjCUnitTests:iOSAppObjCUnitTests.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTests.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE",
+            "IOS_APP_UNIT_TESTS": "CUSTOM_ENV_VALUE"
+        },
+        "//iOSApp/Test/UITests:iOSAppUITestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//iOSApp/Test/UITests:iOSAppUITestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//iOSApp/Test/UITests:iOSAppUITests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//iOSApp/Test/UITests:iOSAppUITests.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//macOSApp/Test/UITests:macOSAppUITests.__internal__.__test_bundle applebin_macos-darwin_x86_64-dbg-STABLE-31",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//macOSApp/Test/UITests:macOSAppUITests.__internal__.__test_bundle applebin_macos-darwin_x86_64-opt-STABLE-32",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//tvOSApp/Test/UITests:tvOSAppUITests.__internal__.__test_bundle applebin_tvos-tvos_x86_64-dbg-STABLE-25",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//tvOSApp/Test/UITests:tvOSAppUITests.__internal__.__test_bundle applebin_tvos-tvos_x86_64-opt-STABLE-27",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//tvOSApp/Test/UnitTests:tvOSAppUnitTests.__internal__.__test_bundle applebin_tvos-tvos_x86_64-dbg-STABLE-25",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//tvOSApp/Test/UnitTests:tvOSAppUnitTests.__internal__.__test_bundle applebin_tvos-tvos_x86_64-opt-STABLE-27",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//watchOSApp/Test/UITests:watchOSAppUITests.__internal__.__test_bundle applebin_watchos-watchos_x86_64-dbg-STABLE-17",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//watchOSApp/Test/UITests:watchOSAppUITests.__internal__.__test_bundle applebin_watchos-watchos_x86_64-opt-STABLE-19",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//watchOSAppExtension/Test/UnitTests:watchOSAppExtensionUnitTests.__internal__.__test_bundle applebin_watchos-watchos_x86_64-dbg-STABLE-17",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        },
+        "//watchOSAppExtension/Test/UnitTests:watchOSAppExtensionUnitTests.__internal__.__test_bundle applebin_watchos-watchos_x86_64-opt-STABLE-19",
+        {
+            "INTEGRATION_TEST_ENV_VAR": "TRUE"
+        }
+    ],
+    "F": [
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Resources/ExampleResources/bucket",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Resources/ExampleResources/bucket",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Resources/ExampleResources/bucket",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Resources/ExampleResources/bucket",
+        "external/examples_ios_app_external/bundles/Utils.bundle",
+        "external/examples_ios_app_external/nested",
+        "iOSApp/Resources/ExampleNestedResources/dir",
+        "iOSApp/Resources/ExampleResources/nested",
+        "iOSApp/Resources/OnlyStructuredResources/Nested"
+    ],
+    "R": "//test/fixtures:xcodeproj_bwb",
+    "T": "fixture-target-ids-file",
+    "a": [
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        [
+            "--command_line_args=-AppleLanguages,(en-GB)"
+        ],
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTestSuite.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        [
+            "--command_line_args=-AppleLanguages,(en-GB)"
+        ],
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-STABLE-13",
+        [
+            "--command_line_args=-AppleLanguages,(en-GB)"
+        ],
+        "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTests.__internal__.__test_bundle applebin_ios-ios_x86_64-opt-STABLE-15",
+        [
+            "--command_line_args=-AppleLanguages,(en-GB)"
+        ]
+    ],
+    "e": [
+        "AppClip/BUILD",
+        "AppClip/Entitlements.entitlements",
+        "AppClip/Info.plist",
+        "Bundle/BUILD",
+        "Bundle/Info.plist",
+        "CommandLine/CommandLineTool/BUILD",
+        "CommandLine/CommandLineTool/Info.plist",
+        "CommandLine/CommandLineTool/Launchd.plist",
+        "CommandLine/CommandLineTool/export_symbol_list.exp",
+        "CommandLine/CommandLineTool/verbose.cfg",
+        "CommandLine/CommandLineToolLib/BUILD",
+        "CommandLine/CommandLineToolLib/dir with space/lib.h",
+        "CommandLine/CommandLineToolLib/private_lib.h",
+        "CommandLine/Tests/BUILD",
+        "CommandLine/swift_c_module/BUILD",
+        "CommandLine/swift_c_module/c_lib.h",
+        "Lib/BUILD",
+        "Lib/Info.plist",
+        "Lib/README.md",
+        "Lib/dist/dynamic/BUILD",
+        "README.md",
+        "UI/BUILD",
+        "UI/Info.plist",
+        "WidgetExtension/BUILD",
+        "WidgetExtension/Info.plist",
+        "WidgetExtension/WidgetExtension.intentdefinition",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/AppClip/Entitlements.withbundleid.plist",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/AppClip/rules_xcodeproj/AppClip/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/Lib/dist/dynamic/rules_xcodeproj/iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/UI/rules_xcodeproj/UIFramework.iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/WidgetExtension/rules_xcodeproj/WidgetExtension/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/iOSApp/Source/CoreUtilsObjC/rules_xcodeproj/FrameworkCoreUtilsObjC/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-dbg-STABLE-14/bin/iOSApp/Source/rules_xcodeproj/iOSApp/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/AppClip/Entitlements.withbundleid.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/AppClip/rules_xcodeproj/AppClip/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/Lib/dist/dynamic/rules_xcodeproj/iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/UI/rules_xcodeproj/UIFramework.iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/WidgetExtension/rules_xcodeproj/WidgetExtension/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/iOSApp/Source/CoreUtilsObjC/rules_xcodeproj/FrameworkCoreUtilsObjC/Info.plist",
+        "bazel-out/applebin_ios-ios_arm64-opt-STABLE-16/bin/iOSApp/Source/rules_xcodeproj/iOSApp/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/AppClip/Entitlements.withbundleid.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/AppClip/rules_xcodeproj/AppClip/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/Lib/dist/dynamic/rules_xcodeproj/iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/UI/rules_xcodeproj/UIFramework.iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/WidgetExtension/rules_xcodeproj/WidgetExtension/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iMessageApp/rules_xcodeproj/iMessageApp/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iMessageApp/rules_xcodeproj/iMessageAppExtension/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Source/CoreUtilsObjC/rules_xcodeproj/FrameworkCoreUtilsObjC/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Source/rules_xcodeproj/iOSApp/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Test/ObjCUnitTests/rules_xcodeproj/iOSAppObjCUnitTestSuite.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Test/ObjCUnitTests/rules_xcodeproj/iOSAppObjCUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Test/SwiftUnitTests/rules_xcodeproj/iOSAppSwiftUnitTestSuite.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Test/SwiftUnitTests/rules_xcodeproj/iOSAppSwiftUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Test/UITests/rules_xcodeproj/iOSAppUITestSuite.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-dbg-STABLE-13/bin/iOSApp/Test/UITests/rules_xcodeproj/iOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/AppClip/Entitlements.withbundleid.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/AppClip/rules_xcodeproj/AppClip/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/Lib/dist/dynamic/rules_xcodeproj/iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/UI/rules_xcodeproj/UIFramework.iOS/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/WidgetExtension/rules_xcodeproj/WidgetExtension/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iMessageApp/rules_xcodeproj/iMessageApp/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iMessageApp/rules_xcodeproj/iMessageAppExtension/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Source/CoreUtilsObjC/rules_xcodeproj/FrameworkCoreUtilsObjC/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Source/rules_xcodeproj/iOSApp/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Test/ObjCUnitTests/rules_xcodeproj/iOSAppObjCUnitTestSuite.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Test/ObjCUnitTests/rules_xcodeproj/iOSAppObjCUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Test/SwiftUnitTests/rules_xcodeproj/iOSAppSwiftUnitTestSuite.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Test/SwiftUnitTests/rules_xcodeproj/iOSAppSwiftUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Test/UITests/rules_xcodeproj/iOSAppUITestSuite.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_ios-ios_x86_64-opt-STABLE-15/bin/iOSApp/Test/UITests/rules_xcodeproj/iOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-dbg-STABLE-31/bin/Bundle/rules_xcodeproj/Bundle/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-dbg-STABLE-31/bin/macOSApp/Source/rules_xcodeproj/macOSApp/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-dbg-STABLE-31/bin/macOSApp/Test/UITests/rules_xcodeproj/macOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-dbg-STABLE-39/bin/CommandLine/CommandLineTool/rules_xcodeproj/CommandLineTool/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-dbg-STABLE-39/bin/CommandLine/Tests/rules_xcodeproj/CommandLineToolTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-opt-STABLE-32/bin/Bundle/rules_xcodeproj/Bundle/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-opt-STABLE-32/bin/macOSApp/Source/rules_xcodeproj/macOSApp/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-opt-STABLE-32/bin/macOSApp/Test/UITests/rules_xcodeproj/macOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-opt-STABLE-40/bin/CommandLine/CommandLineTool/rules_xcodeproj/CommandLineTool/Info.plist",
+        "bazel-out/applebin_macos-darwin_x86_64-opt-STABLE-40/bin/CommandLine/Tests/rules_xcodeproj/CommandLineToolTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-dbg-STABLE-26/bin/Lib/dist/dynamic/rules_xcodeproj/tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-dbg-STABLE-26/bin/Lib/exported-symbols.lds",
+        "bazel-out/applebin_tvos-tvos_arm64-dbg-STABLE-26/bin/Lib/rules_xcodeproj/LibFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-dbg-STABLE-26/bin/UI/rules_xcodeproj/UIFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-dbg-STABLE-26/bin/tvOSApp/Source/rules_xcodeproj/tvOSApp/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-opt-STABLE-28/bin/Lib/dist/dynamic/rules_xcodeproj/tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-opt-STABLE-28/bin/Lib/exported-symbols.lds",
+        "bazel-out/applebin_tvos-tvos_arm64-opt-STABLE-28/bin/Lib/rules_xcodeproj/LibFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-opt-STABLE-28/bin/UI/rules_xcodeproj/UIFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_arm64-opt-STABLE-28/bin/tvOSApp/Source/rules_xcodeproj/tvOSApp/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/Lib/dist/dynamic/rules_xcodeproj/tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/Lib/exported-symbols.lds",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/Lib/rules_xcodeproj/LibFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/UI/rules_xcodeproj/UIFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/tvOSApp/Source/rules_xcodeproj/tvOSApp/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/tvOSApp/Test/UITests/rules_xcodeproj/tvOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-dbg-STABLE-25/bin/tvOSApp/Test/UnitTests/rules_xcodeproj/tvOSAppUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/Lib/dist/dynamic/rules_xcodeproj/tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/Lib/exported-symbols.lds",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/Lib/rules_xcodeproj/LibFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/UI/rules_xcodeproj/UIFramework.tvOS/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/tvOSApp/Source/rules_xcodeproj/tvOSApp/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/tvOSApp/Test/UITests/rules_xcodeproj/tvOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_tvos-tvos_x86_64-opt-STABLE-27/bin/tvOSApp/Test/UnitTests/rules_xcodeproj/tvOSAppUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-22/bin/watchOSApp/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-22/bin/watchOSApp/rules_xcodeproj/watchOSApp/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-18/bin/Lib/dist/dynamic/rules_xcodeproj/watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-18/bin/Lib/rules_xcodeproj/LibFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-18/bin/UI/rules_xcodeproj/UIFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-18/bin/watchOSAppExtension/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-dbg-STABLE-18/bin/watchOSAppExtension/rules_xcodeproj/watchOSAppExtension/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-20/bin/Lib/dist/dynamic/rules_xcodeproj/watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-20/bin/Lib/rules_xcodeproj/LibFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-20/bin/UI/rules_xcodeproj/UIFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-20/bin/watchOSAppExtension/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-20/bin/watchOSAppExtension/rules_xcodeproj/watchOSAppExtension/Info.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-24/bin/watchOSApp/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_arm64_32-opt-STABLE-24/bin/watchOSApp/rules_xcodeproj/watchOSApp/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-21/bin/watchOSApp/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-21/bin/watchOSApp/rules_xcodeproj/watchOSApp/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/Lib/dist/dynamic/rules_xcodeproj/watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/Lib/rules_xcodeproj/LibFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/UI/rules_xcodeproj/UIFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/watchOSApp/Test/UITests/rules_xcodeproj/watchOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/watchOSAppExtension/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/watchOSAppExtension/Test/UnitTests/rules_xcodeproj/watchOSAppExtensionUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-dbg-STABLE-17/bin/watchOSAppExtension/rules_xcodeproj/watchOSAppExtension/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/Lib/dist/dynamic/rules_xcodeproj/watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/Lib/rules_xcodeproj/LibFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/UI/rules_xcodeproj/UIFramework.watchOS/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/watchOSApp/Test/UITests/rules_xcodeproj/watchOSAppUITests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/watchOSAppExtension/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/watchOSAppExtension/Test/UnitTests/rules_xcodeproj/watchOSAppExtensionUnitTests.__internal__.__test_bundle/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-19/bin/watchOSAppExtension/rules_xcodeproj/watchOSAppExtension/Info.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-23/bin/watchOSApp/Info.withbundleid.plist",
+        "bazel-out/applebin_watchos-watchos_x86_64-opt-STABLE-23/bin/watchOSApp/rules_xcodeproj/watchOSApp/Info.plist",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Resources/ExampleNestedResources/ExampleNestedResources-intermediates/ExampleNestedResources.bundle/Info.plist",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Resources/ExampleResources/ExampleResources-intermediates/ExampleResources.bundle/Info.plist",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer-Swift.h",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer.h",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_objc_modulemap-module.modulemap",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-dbg-STABLE-4/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_swift_modulemap-module.modulemap",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Resources/ExampleNestedResources/ExampleNestedResources-intermediates/ExampleNestedResources.bundle",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Resources/ExampleNestedResources/ExampleNestedResources-intermediates/ExampleNestedResources.bundle/Info.plist",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Resources/ExampleResources/ExampleResources-intermediates/ExampleResources.bundle/Info.plist",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer-Swift.h",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer.h",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_objc_modulemap-module.modulemap",
+        "bazel-out/ios-arm64-min15.0-applebin_ios-ios_arm64-opt-STABLE-10/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_swift_modulemap-module.modulemap",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/external/examples_ios_app_external/ExternalResources-intermediates/ExternalResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Resources/ExampleNestedResources/ExampleNestedResources-intermediates/ExampleNestedResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Resources/ExampleResources/ExampleResources-intermediates/ExampleResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Resources/OnlyStructuredResources/OnlyStructuredResources-intermediates/OnlyStructuredResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer-Swift.h",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer.h",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_objc_modulemap-module.modulemap",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_swift_modulemap-module.modulemap",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-STABLE-1/bin/iOSApp/Test/TestingUtils/SwiftAPI/TestingUtils-Swift.h",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/external/examples_ios_app_external/ExternalResources-intermediates/ExternalResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Resources/ExampleNestedResources/ExampleNestedResources-intermediates/ExampleNestedResources.bundle",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Resources/ExampleNestedResources/ExampleNestedResources-intermediates/ExampleNestedResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Resources/ExampleResources/ExampleResources-intermediates/ExampleResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Resources/OnlyStructuredResources/OnlyStructuredResources-intermediates/OnlyStructuredResources.bundle/Info.plist",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer-Swift.h",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer.h",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_objc_modulemap-module.modulemap",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer_swift_modulemap-module.modulemap",
+        "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-opt-STABLE-7/bin/iOSApp/Test/TestingUtils/SwiftAPI/TestingUtils-Swift.h",
+        "bazel-out/macos-arm64-min11.0-applebin_macos-darwin_arm64-dbg-STABLE-34/bin/CommandLine/CommandLineToolLib/private/LibSwift-Swift.h",
+        "bazel-out/macos-arm64-min11.0-applebin_macos-darwin_arm64-opt-STABLE-37/bin/CommandLine/CommandLineToolLib/private/LibSwift-Swift.h",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-dbg-STABLE-35/bin/CommandLine/CommandLineToolLib/private/LibSwift-Swift.h",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-dbg-STABLE-33/bin/CommandLine/CommandLineTool/CommandLineTool.merged_infoplist-intermediates/Info.plist",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-dbg-STABLE-33/bin/CommandLine/CommandLineTool/CommandLineTool.merged_launchdplists-intermediates/Launchd.plist",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-dbg-STABLE-33/bin/CommandLine/CommandLineToolLib/private/LibSwift-Swift.h",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-opt-STABLE-38/bin/CommandLine/CommandLineToolLib/private/LibSwift-Swift.h",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-opt-STABLE-36/bin/CommandLine/CommandLineTool/CommandLineTool.merged_infoplist-intermediates/Info.plist",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-opt-STABLE-36/bin/CommandLine/CommandLineTool/CommandLineTool.merged_launchdplists-intermediates/Launchd.plist",
+        "bazel-out/macos-x86_64-min11.0-applebin_macos-darwin_x86_64-opt-STABLE-36/bin/CommandLine/CommandLineToolLib/private/LibSwift-Swift.h",
+        "bazel-out/macos-x86_64-min12.0-applebin_macos-darwin_x86_64-dbg-STABLE-29/bin/iOSApp/Test/TestingUtils/SwiftAPI/TestingUtils-Swift.h",
+        "bazel-out/macos-x86_64-min12.0-applebin_macos-darwin_x86_64-opt-STABLE-30/bin/iOSApp/Test/TestingUtils/SwiftAPI/TestingUtils-Swift.h",
+        "external/FXPageControl/FXPageControl/FXPageControl.h",
+        "external/build_bazel_rules_apple/apple/testing/DefaultTestBundle.plist",
+        "external/com_github_krzyzanowskim_cryptoswift/CryptoSwift.xcframework/ios-arm64_armv7/CryptoSwift.framework",
+        "external/com_github_krzyzanowskim_cryptoswift/CryptoSwift.xcframework/ios-arm64_i386_x86_64-simulator/CryptoSwift.framework",
+        "external/com_github_krzyzanowskim_cryptoswift/CryptoSwift.xcframework/tvos-arm64/CryptoSwift.framework",
+        "external/com_github_krzyzanowskim_cryptoswift/CryptoSwift.xcframework/tvos-arm64_x86_64-simulator/CryptoSwift.framework",
+        "external/com_github_krzyzanowskim_cryptoswift/CryptoSwift.xcframework/watchos-arm64_32_armv7k/CryptoSwift.framework",
+        "external/com_github_krzyzanowskim_cryptoswift/CryptoSwift.xcframework/watchos-arm64_i386_x86_64-simulator/CryptoSwift.framework",
+        "external/com_google_google_maps/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework",
+        "external/com_google_google_maps/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework",
+        "external/com_google_google_maps/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework",
+        "external/com_google_google_maps/GoogleMapsBase.xcframework/ios-arm64_x86_64-simulator/GoogleMapsBase.framework",
+        "external/com_google_google_maps/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework",
+        "external/com_google_google_maps/GoogleMapsCore.xcframework/ios-arm64_x86_64-simulator/GoogleMapsCore.framework",
+        "external/examples_command_line_external/ExternalFramework.framework",
+        "external/examples_command_line_external/ImportableLibrary/Library.h",
+        "external/examples_command_line_external/ImportableLibrary/libImportableLibrary.a",
+        "external/examples_ios_app_external/Assets.xcassets",
+        "external/examples_ios_app_external/Info.plist",
+        "iMessageApp/BUILD",
+        "iMessageApp/Info.extension.plist",
+        "iMessageApp/Info.plist",
+        "iOSApp/BUILD",
+        "iOSApp/Resources/ExampleNestedResources/Assets.xcassets",
+        "iOSApp/Resources/ExampleNestedResources/BUILD",
+        "iOSApp/Resources/ExampleNestedResources/Info.plist",
+        "iOSApp/Resources/ExampleNestedResources/en.lproj/Localizable.strings",
+        "iOSApp/Resources/ExampleNestedResources/es.lproj/Localizable.strings",
+        "iOSApp/Resources/ExampleResources/Assets.xcassets",
+        "iOSApp/Resources/ExampleResources/BUILD",
+        "iOSApp/Resources/ExampleResources/Info.plist",
+        "iOSApp/Resources/OnlyStructuredResources/BUILD",
+        "iOSApp/Resources/OnlyStructuredResources/Info.plist",
+        "iOSApp/Source/AltIcons/AltIcon-60.alticon/AltIcon-60@2x.png",
+        "iOSApp/Source/AltIcons/AltIcon-60.alticon/AltIcon-60@3x.png",
+        "iOSApp/Source/BUILD",
+        "iOSApp/Source/CoreUtilsMixed/MixedAnswer/BUILD",
+        "iOSApp/Source/CoreUtilsMixed/MixedAnswer/MixedAnswer.h",
+        "iOSApp/Source/CoreUtilsObjC/BUILD",
+        "iOSApp/Source/CoreUtilsObjC/CoreUtils/CoreUtils.pch",
+        "iOSApp/Source/CoreUtilsObjC/Info.plist",
+        "iOSApp/Source/Info.plist",
+        "iOSApp/Source/Utils/BUILD",
+        "iOSApp/Source/Utils/Foo.h",
+        "iOSApp/Source/Utils/Utils.h",
+        "iOSApp/Source/ios app.entitlements",
+        "iOSApp/Test/ObjCUnitTests/BUILD",
+        "iOSApp/Test/SwiftUnitTests/BUILD",
+        "iOSApp/Test/TestingUtils/Answer.swift.stencil",
+        "iOSApp/Test/TestingUtils/BUILD",
+        "iOSApp/Test/TestingUtils/Greeting.swift.stencil",
+        "iOSApp/Test/TestingUtils/merge.sh",
+        "iOSApp/Test/UITests/BUILD",
+        "iOSApp/ownership.yaml",
+        "macOSApp/Source/BUILD",
+        "macOSApp/Source/Info.plist",
+        "macOSApp/Test/UITests/BUILD",
+        "macOSApp/third_party/BUILD",
+        "macOSApp/third_party/ExampleFramework.framework",
+        "test/fixtures/BUILD",
+        "tvOSApp/Resources/BUILD",
+        "tvOSApp/Source/BUILD",
+        "tvOSApp/Source/Info.plist",
+        "tvOSApp/Test/UITests/BUILD",
+        "tvOSApp/Test/UnitTests/BUILD",
+        "watchOSApp/BUILD",
+        "watchOSApp/Info.plist",
+        "watchOSApp/Test/UITests/BUILD",
+        "watchOSAppExtension/BUILD",
+        "watchOSAppExtension/Info.plist",
+        "watchOSAppExtension/Test/UnitTests/BUILD"
+    ],
+    "i": "fixture-index-import-path",
+    "m": "13.0",
+    "n": "bwb",
+    "o": {
+        "d": "es",
+        "i": 3,
+        "o": "BB",
+        "t": 2,
+        "u": true
+    },
+    "p": "set -euo pipefail\n\nif [[ \"$ACTION\" == \"build\" ]]; then\n  cd \"$SRCROOT\"\n  echo \"Hello from pre-build!\"\nfi",
+    "t": [
+        "//WidgetExtension:WidgetExtension applebin_ios-ios_arm64-dbg-STABLE-14",
+        [
+            "//iOSApp/Source:iOSApp applebin_ios-ios_arm64-dbg-STABLE-14"
+        ],
+        "//WidgetExtension:WidgetExtension applebin_ios-ios_arm64-opt-STABLE-16",
+        [
+            "//iOSApp/Source:iOSApp applebin_ios-ios_arm64-opt-STABLE-16"
+        ],
+        "//WidgetExtension:WidgetExtension applebin_ios-ios_x86_64-dbg-STABLE-13",
+        [
+            "//iOSApp/Source:iOSApp applebin_ios-ios_x86_64-dbg-STABLE-13"
+        ],
+        "//WidgetExtension:WidgetExtension applebin_ios-ios_x86_64-opt-STABLE-15",
+        [
+            "//iOSApp/Source:iOSApp applebin_ios-ios_x86_64-opt-STABLE-15"
+        ],
+        "//iMessageApp:iMessageAppExtension applebin_ios-ios_x86_64-dbg-STABLE-13",
+        [
+            "//iMessageApp:iMessageApp applebin_ios-ios_x86_64-dbg-STABLE-13"
+        ],
+        "//iMessageApp:iMessageAppExtension applebin_ios-ios_x86_64-opt-STABLE-15",
+        [
+            "//iMessageApp:iMessageApp applebin_ios-ios_x86_64-opt-STABLE-15"
+        ],
+        "//watchOSAppExtension:watchOSAppExtension applebin_watchos-watchos_arm64_32-dbg-STABLE-18",
+        [
+            "//watchOSApp:watchOSApp applebin_watchos-watchos_arm64_32-dbg-STABLE-22"
+        ],
+        "//watchOSAppExtension:watchOSAppExtension applebin_watchos-watchos_arm64_32-opt-STABLE-20",
+        [
+            "//watchOSApp:watchOSApp applebin_watchos-watchos_arm64_32-opt-STABLE-24"
+        ],
+        "//watchOSAppExtension:watchOSAppExtension applebin_watchos-watchos_x86_64-dbg-STABLE-17",
+        [
+            "//watchOSApp:watchOSApp applebin_watchos-watchos_x86_64-dbg-STABLE-21"
+        ],
+        "//watchOSAppExtension:watchOSAppExtension applebin_watchos-watchos_x86_64-opt-STABLE-19",
+        [
+            "//watchOSApp:watchOSApp applebin_watchos-watchos_x86_64-opt-STABLE-23"
+        ]
+    ],
+    "x": [
+        "AppStore",
+        "Debug"
+    ]
+}

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+set -euo pipefail
+
+bazel_version=$("$BAZEL_REAL" info release | /usr/bin/cut -d ' ' -f 2 | /usr/bin/cut -d '.' -f 1)
+if [[ "$bazel_version" == "version" ]]; then
+  bazel_version=7
+fi
+
+flags=()
+
+tool_location="${BASH_SOURCE[0]}"
+tool_abs_location="$(/usr/bin/perl -MCwd -e 'print Cwd::abs_path shift' "$tool_location";)"
+readonly root_dir="${tool_abs_location%/*/*}"
+if [[ $bazel_version -lt 6 ]]; then
+  flags+=("--bazelrc=$root_dir/bazel_5.bazelrc")
+else
+  flags+=("--bazelrc=$root_dir/bazel_6.bazelrc")
+
+  workspace_dir="${tool_location%/*/*}"
+
+  if [[ "$workspace_dir" != "$root_dir" ]]; then
+    readonly workspace_bazelrc="$workspace_dir/bazel_6.bazelrc"
+    if [[ -s "$workspace_bazelrc" ]]; then
+      flags+=("--bazelrc=$workspace_bazelrc")
+    fi
+  fi
+fi
+
+flags+=("--bazelrc=.bazelrc")
+
+exec "$BAZEL_REAL" "--noworkspace_rc" "${flags[@]}" "$@"

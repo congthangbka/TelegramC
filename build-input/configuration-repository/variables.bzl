@@ -1,0 +1,16 @@
+telegram_bazel_path = "/Users/ThangNC/Git/SourceCode/Telegram-iOS/build-input/bazel-6.3.2-darwin-arm64"
+telegram_use_xcode_managed_codesigning = True
+telegram_bundle_id = "jarvis.test.telegram"
+telegram_api_id = "27280993"
+telegram_api_hash = "533c446d57e2bc7e631c7e98ff8b17de"
+telegram_team_id = "M9U5FEUR53"
+telegram_app_center_id = "0"
+telegram_is_internal_build = "false"
+telegram_is_appstore_build = "true"
+telegram_appstore_id = "686449807"
+telegram_app_specific_url_scheme = "tg"
+telegram_premium_iap_product_id = "org.telegram.telegramPremium.monthly"
+telegram_aps_environment = ""
+telegram_enable_siri = True
+telegram_enable_icloud = True
+telegram_enable_watch = True
